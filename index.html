@@ -2,52 +2,180 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wellesley Community Pickleball</title>
-    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        line-height: 1.6;
+      }
+
+      .image-container {
+        float: right;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding-top: 25px;
+        width: 30vw;
+        max-width: 3in;
+      }
+
+      .image-container img {
+        width: 100%;
+        height: auto;
+      }
+
+      .caption {
+        font-size: 0.8em;
+        text-align: center;
+        margin-top: 8px;
+      }
+
+      table {
+        margin-top: 20px;
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+
+      th,
+      td {
+        padding: 8px 12px;
+        text-align: left;
+      }
+
+      @media (max-width: 600px) {
+        .image-container {
+          float: none;
+          margin-right: 0;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          width: 70vw;
+        }
+      }
+    </style>
   </head>
+
   <body>
     <div id="header">
       <a href="index.html">
         <img
-          src="WPC_logo_23-10.png"
+          src="images/WPC_logo_23-10.png"
           alt="Wellesley Pickleball Logo"
           id="logo"
         />
       </a>
       <h1>Join Wellesley Community Pickleball™</h1>
     </div>
-    <div id="content">
-      <p>
-        Help us maintain and grow the sport of pickleball in the community of
-        Wellesley so people of all ages can play at our town courts.
-      </p>
-      <p>For additional information, please contact:</p>
 
-      <ul>
-        <li>
-          Judy Dobbie,
-          <span class="email">judy@wellesleycommunity&#8203pickleball.org</span>
-        </li>
-        <li>
-          Kenna Juliani,
-          <span class="email">kenna@wellesley&#8203communitypickleball.org</span>
-        </li>
-      </ul>
-
-      <p>
-        And check out our
-        <a href="rules.html">confusing pickleball rules page</a>.
-      </p>
-      <img src="Pickleball Game.jpg" alt="Pickleball art" id="art" />
-
-      <figcaption>
-        Hopper, Edward. <i>Pickleball Hawks</i>. 1942, oil on canvas. Art Inst.
-        of Chicago.
-      </figcaption>
+    <div class="image-container">
+      <img
+        src="images/Impressionist_pickleball.png"
+        alt="Description of Image"
+      />
+      <div class="caption">
+        Renoir, Pierre-Auguste. <i>Les Pickleball Joueuses</i>. 1881, oil on
+        canvas. La Louvre, Paris.
+      </div>
     </div>
+
+    <p>
+      Help us maintain and grow the sport of pickleball in the community of
+      Wellesley so people of all ages can play at our town courts. For
+      additional information, please contact:
+      <span class="email">admin@WellesleyCommunityPickleball.org</span>
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at odio
+      vitae sem blandit dapibus ac at neque. Nullam elementum, sapien eu
+      facilisis placerat, elit orci pulvinar orci, a elementum purus justo eget
+      purus. Vivamus in libero elit. Cras ac urna id odio varius varius. Aenean
+      at ante et elit iaculis imperdiet.
+    </p>
+
+    <p>
+      And check out our
+      <a href="rules.html">confusing pickleball rules page</a>.
+    </p>
+
+    <h2>Upcoming Town Meetings of Note</h2>
+
+    <table>
+      <tr>
+        <th style="width: 60px">Date</th>
+        <th style="width: 18px">Time</th>
+        <th>Department</th>
+        <th>Location</th>
+        <th>Details</th>
+      </tr>
+      <tr>
+        <td>Mon, Oct 30</td>
+        <td>4pm</td>
+        <td>Select Board</td>
+        <td>Zoom meeting</td>
+        <td>
+          Placeholder: agenda seems to have changed so no longer relevant to us?
+          For link and to request to speak: email sel@wellesleyma.gov
+        </td>
+      </tr>
+      <tr>
+        <td>Wed, Nov 1</td>
+        <td>6:30pm</td>
+        <td>Advisory Committee</td>
+        <td>Wellesley PD</td>
+        <td>
+          Meeting to discuss and vote on 2023 warrant articles. We have not
+          prioritized this meeting for WCP. For link and to request to speak:
+          advisorycommittee@wellesleyma.gov
+        </td>
+      </tr>
+      <tr>
+        <td>Mon, Nov 6</td>
+        <td>7pm</td>
+        <td>Town Meeting</td>
+        <td>WMS Auditorium</td>
+        <td>
+          We hope funding for a "feasibility study for the siting of pickleball
+          courts in the Town of Wellesley" will be approved. You may volunteer
+          to speak when the relevant article is called.
+          <a href="https://wellesleyma.gov/2102/2023-Special-Town-Meeting"
+            >Details</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Tues, Nov 7</td>
+        <td>7pm</td>
+        <td>Town Meeting</td>
+        <td>WMS Auditorium</td>
+        <td>Continuation of Monday's meeting if needed</td>
+      </tr>
+      <tr>
+        <td>April 2024</td>
+        <td>TBD</td>
+        <td>Town Meeting</td>
+        <td>TBD</td>
+        <td>
+          We hope that, based on the results of the PB court feasibility study,
+          funding for up to 14 ne3w courts will be approved
+        </td>
+      </tr>
+    </table>
+
+    <img src="images/pickleball_game.jpg" alt="Pickleball art" id="art" />
+
+    <figcaption>
+      Hopper, Edward. <i>Pickleball Hawks</i>. 1942, oil on canvas. Art Inst. of
+      Chicago.
+    </figcaption>
     <div id="footer">© Wellesley Community Pickleball, 2023</div>
   </body>
 </html>

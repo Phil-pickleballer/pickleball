@@ -32,6 +32,10 @@ h1 {
 h2 {
   margin-bottom: 5px;
 }
+.h2Note {
+  font-weight: normal;
+  font-size: medium;
+}
 p {
   font-size: 1.2rem;
 }
@@ -45,6 +49,7 @@ li {
 }
 .email {
   font-style: italic;
+  font-weight: bold;
 }
 
 #logo {
@@ -56,6 +61,7 @@ li {
   /* max-width: 650px; */
   position: relative;
   max-width: 900px;
+  margin-top: 20px;
   width: 83vw;
   border: green 5px solid;
   border-radius: 5px;
