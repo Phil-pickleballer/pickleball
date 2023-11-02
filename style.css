@@ -16,7 +16,7 @@ body {
 
 /* central text container */
 #content {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   background-color: #fff;
   max-width: 1000px;
@@ -111,14 +111,17 @@ figcaption {
   margin-top: 20px;
 }
 
-@media (max-width: 600px) {
-  .image-container {
+@media (max-width: 700px) {
+  /* #content {
+    display: flex;
+  } */
+  .art-container-wrap-right {
     float: none;
     margin-right: 0;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 70vw;
+    width: 100vw;
   }
 }
 
